@@ -1,5 +1,5 @@
 CREATE TABLE Habitaciones (
-HabitacionesID INT PRIMARY KEY,
+ID INT PRIMARY KEY,
 Nombre VARCHAR(50),
 EstablecimientoID INT,
 Capacidad INT,

@@ -1,0 +1,4 @@
+CREATE TABLE Pais (
+ID INT PRIMARY KEY,
+Nombre VARCHAR
+);

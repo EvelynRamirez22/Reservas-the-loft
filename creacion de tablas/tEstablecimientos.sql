@@ -1,5 +1,5 @@
 CREATE TABLE Establecimientos (
-EstablecimientosID INT PRIMARY KEY,
+ID INT PRIMARY KEY,
 Nombre VARCHAR(50),
 LocalidadID INT,
 Telefono VARCHAR,

@@ -1,5 +1,5 @@
 CREATE TABLE Localidad (
-LocalidadID INT PRIMARY KEY,
+ID INT PRIMARY KEY,
 Direccion VARCHAR,
 provinciaID INT
 );

@@ -1,0 +1,4 @@
+CREATE TABLE Provincia (
+ID INT PRIMARY KEY,
+PaisID INT
+);
