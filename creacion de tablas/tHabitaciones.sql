@@ -18,7 +18,7 @@ CREATE TABLE Establecimientos (
 );
 
 CREATE TABLE Habitaciones (
-    ID INT PRIMARY KEY,
+    ID int NOT NULL AUTO_INCREMENT,
     Nombre VARCHAR(50),
     EstablecimientoID INT,
     Capacidad INT,

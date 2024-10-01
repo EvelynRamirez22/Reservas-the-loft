@@ -10,7 +10,7 @@ CREATE TABLE Pais (
 );
 
 CREATE TABLE Provincia (
-    ID INT PRIMARY KEY,
+    ID int NOT NULL AUTO_INCREMENT,,
     PaisID INT,
     FOREIGN KEY (PaisID) REFERENCES Pais(ID)
 );

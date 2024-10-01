@@ -23,7 +23,7 @@ CREATE TABLE Habitaciones (
 );
 
 CREATE TABLE Reservas (
-    ID INT PRIMARY KEY,
+    ID int NOT NULL AUTO_INCREMENT,,
     UsuarioID INT,
     HabitacionID INT,
     Fecha_inicio DATE,       -- Corregir nombre de columna

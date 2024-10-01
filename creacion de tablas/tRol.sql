@@ -12,7 +12,7 @@ CREATE TABLE Usuarios (
 );
 
 CREATE TABLE Rol (
-    ID INT PRIMARY KEY,
+    ID int NOT NULL AUTO_INCREMENT,
     UsuarioID INT,
     Cliente VARCHAR(50),  -- Especificar longitud para VARCHAR
     Empleado VARCHAR(50), -- Especificar longitud para VARCHAR

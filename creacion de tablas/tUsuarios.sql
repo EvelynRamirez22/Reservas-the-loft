@@ -7,7 +7,7 @@ Fecha de creacion DATETIME
 );
 
 CREATE TABLE Usuario (
-    ID INT PRIMARY KEY,
+    ID int NOT NULL AUTO_INCREMENT,
     Nombre VARCHAR(50),  -- Especificar longitud para VARCHAR
     Apellido VARCHAR(50),-- Especificar longitud para VARCHAR
     Email VARCHAR(100),  -- Especificar longitud para VARCHAR

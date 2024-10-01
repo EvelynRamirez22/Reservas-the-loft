@@ -4,7 +4,7 @@ Nombre VARCHAR
 );
 
 CREATE TABLE Pais (
-    ID INT PRIMARY KEY,
+    ID int NOT NULL AUTO_INCREMENT,
     Nombre VARCHAR(50) -- Especificar longitud para VARCHAR
 );
 
