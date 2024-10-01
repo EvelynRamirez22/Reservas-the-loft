@@ -9,9 +9,3 @@ CREATE TABLE Rol (
 );
 
 
-INSERT INTO Rol (UsuarioID, Cliente,
-Empleado)
-VALUES ('1', 'SI','NO' ),
-       ('2', 'NO','SI' ),
-       ('3', 'SI','NO' ),
-       ('4','SI','SI' );
