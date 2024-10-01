@@ -1,5 +1,6 @@
 CREATE TABLE Habitaciones (
 <<<<<<< HEAD
+<<<<<<< HEAD
     ID INT PRIMARY KEY,
 =======
 ID INT PRIMARY KEY,
@@ -21,6 +22,8 @@ CREATE TABLE Establecimientos (
 );
 
 CREATE TABLE Habitaciones (
+=======
+>>>>>>> a6d15224d6745da04325553f370bf2fc05d72e23
     ID int NOT NULL AUTO_INCREMENT,
 >>>>>>> 22e52a6cbd0d3eec676f395c8bcfa6902817b282
     Nombre VARCHAR(50),
