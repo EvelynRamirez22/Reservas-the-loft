@@ -1,14 +1,4 @@
-CREATE TABLE Localidad (
-ID INT PRIMARY KEY,
-Direccion VARCHAR,
-provinciaID INT
-);
 
-
-CREATE TABLE Provincia (
-    ID INT PRIMARY KEY,
-    Nombre VARCHAR(50)
-);
 
 CREATE TABLE Localidad (
     ID INT PRIMARY KEY,

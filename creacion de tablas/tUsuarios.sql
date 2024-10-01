@@ -6,6 +6,16 @@ Email VARCHAR,
 Fecha de creacion DATETIME
 );
 
+
+INSERT INTO Usuario (Nombre, Apellido,
+Email,)
+VALUES (1, 'Juan', 'Pérez','jperez3@gmail.com' ),
+       (2, 'Martin', 'Guevara','gMartin12@gmail.com' )
+       (3, 'Lionel', 'Messi','MessiL10@gmail.com' )
+       (4, 'Marcela','Correa','CMarcela_2@gmail.com' );
+
+
+
 CREATE TABLE Usuario (
     ID INT PRIMARY KEY,
     Nombre VARCHAR(50),  -- Especificar longitud para VARCHAR

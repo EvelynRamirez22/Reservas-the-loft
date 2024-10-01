@@ -1,15 +1,4 @@
-CREATE TABLE Rol (
-ID INT PRIMARY KEY,
-UsuarioID INT,
-Cliente VARCHAR,
-Empleado VARCHAR
-);
 
-CREATE TABLE Usuarios (
-    ID INT PRIMARY KEY,
-    Nombre VARCHAR(50),
-    Email VARCHAR(100)
-);
 
 CREATE TABLE Rol (
     ID INT PRIMARY KEY,

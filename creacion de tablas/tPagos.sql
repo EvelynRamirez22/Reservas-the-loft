@@ -1,23 +1,4 @@
 CREATE TABLE Pagos (
-ID INT PRIMARY KEY,
-ReservaID INT,
-monto DECIMAL,
-MetododepagoID INT,
-Fecha de pago DATETIME
-);
-
-CREATE TABLE Reservas (
-    ID INT PRIMARY KEY,
-    FechaReserva DATETIME,
-    ClienteID INT
-);
-
-CREATE TABLE MetodosDePago (
-    ID INT PRIMARY KEY,
-    Metodo VARCHAR(50)
-);
-
-CREATE TABLE Pagos (
     ID INT PRIMARY KEY,
     ReservaID INT,
     monto DECIMAL(10, 2),  -- Especificar precisión para DECIMAL
