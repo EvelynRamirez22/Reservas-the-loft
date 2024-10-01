@@ -1,0 +1,7 @@
+CREATE TABLE UsuarioRol (
+    RolID INT,
+    UsuarioID INT,
+    PRIMARY KEY (RolID, UsuarioID),  -- Clave primaria compuesta
+    FOREIGN KEY (RolID) REFERENCES Rol(ID) ON DELETE CASCADE,  -- Referencia a la tabla Rol
+    FOREIGN KEY (UsuarioID) REFERENCES Usuario(ID) ON DELETE CASCADE  -- Referencia a la tabla Usuario
+);

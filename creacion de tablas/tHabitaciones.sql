@@ -1,23 +1,4 @@
 CREATE TABLE Habitaciones (
-ID INT PRIMARY KEY,
-Nombre VARCHAR(50),
-EstablecimientoID INT,
-Capacidad INT,
-Descripcion VARCHAR,
-Precio DECIMAL,
-Img VARBINARY(65535)
-);
-
-CREATE TABLE Establecimientos (
-    ID INT PRIMARY KEY,
-    Nombre VARCHAR(50),
-    LocalidadID INT,
-    Telefono VARCHAR(20),
-    Email VARCHAR(100),
-    Img VARBINARY(65535)
-);
-
-CREATE TABLE Habitaciones (
     ID int NOT NULL AUTO_INCREMENT,
     Nombre VARCHAR(50),
     EstablecimientoID INT,
