@@ -1,9 +1,21 @@
 
 
 CREATE TABLE MP (
-    ID INT PRIMARY KEY,
-    PagosID INT,
-    monto DECIMAL(10, 2),      -- Especificar precisión para DECIMAL
-    mediodepago DECIMAL(10, 2), -- Especificar precisión para DECIMAL
-    FOREIGN KEY (PagosID) REFERENCES Pagos(ID)
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR 
 );
+
+
+
+ALTER TABLE Pagos 
+DROP FOREIGN KEY fk_MetododepagoID;
+
+
+
+
+
+
+
+ALTER TABLE hijos
+ADD CONSTRAINT fk_padre
+FOREIGN KEY (id_padre) REFERENCES padres(id);
